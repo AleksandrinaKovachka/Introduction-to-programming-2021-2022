@@ -10,6 +10,8 @@
 
 - декларира променлива, да се въведе стойността и от клавиатурата и да се изведе стойността и на екрана
 
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week01/Tasks/Task1)
+
 Задача 2:
 =
 Напишете програма, която извежда размерът на всички основни/примитивни типове в С++ (в байтове). Използвайте операторът **sizeof() .**
@@ -18,6 +20,7 @@
 Вход: int , double, float, char, short int, long int, long long int, unsiged int ...
 Изход: 4, 8, 4, 1, 2, 4, 8, 4 ;
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week01/Tasks/Task2)
 
 Задача 3:
 =
@@ -32,6 +35,7 @@
 Вход: P1 = (10.5 , 8.1) , P2 = (12.5 , 3.6)
 Изход: 4.92443
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week01/Tasks/Task3)
 
 Задача 4:
 =
@@ -40,3 +44,4 @@
 Вход: 248
 Изход: 842
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week01/Tasks/Task4)
