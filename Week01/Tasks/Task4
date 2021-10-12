@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  	int number;
+    int firstDigit, secondDigit, lastDigit;
+    int reverseNumber;
+
+    cout << "Input number: ";
+    cin >> number;
+
+    firstDigit = number % 10;
+    number = number / 10; // number /= 10;
+    
+    secondDigit = number % 10;
+    number = number / 10;
+    
+    lastDigit = number;
+
+    cout << firstDigit << secondDigit << lastDigit << endl;
+
+    reverseNumber = firstDigit * 100 + secondDigit * 10 + lastDigit;
+
+    cout << reverseNumber << endl;
+
+    return 0;
+}
