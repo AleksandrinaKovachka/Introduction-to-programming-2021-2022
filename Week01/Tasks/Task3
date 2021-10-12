@@ -1,0 +1,34 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+  	double x1, y1, x2, y2;
+
+	cin >> x1 >> y1 >> x2 >> y2;
+  
+  //втори начин за въвеждане на x1, y1, x2, y2
+  /*
+  cout << "Input x1: ";
+  cin >> x1;
+  cout << "Input y1: ";
+  cin >> y1;
+  cout << "Input x2: ";
+  cin >> x2;
+  cout << "Input y2: ";
+  cin >> y2;
+  */
+
+	cout << "Distance is: " << sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1)) << endl;
+  
+  //втори начин - запазване на растоянието в променлива
+  /*
+  double distance;
+  distance = sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1));
+  cout << "Distance is: " << distance << endl;
+  */
+    
+    	return 0;
+}
