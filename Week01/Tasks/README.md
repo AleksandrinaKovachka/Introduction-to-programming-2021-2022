@@ -17,7 +17,7 @@
 Напишете програма, която извежда размерът на всички основни/примитивни типове в С++ (в байтове). Използвайте операторът **sizeof() .**
 
 ```
-Вход: int , double, float, char, short int, long int, long long int, unsiged int ...
+Вход: int , double, float, char, short int, long int, long long int, unsigned int ...
 Изход: 4, 8, 4, 1, 2, 4, 8, 4 ;
 ```
 [Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week01/Tasks/Task2)
