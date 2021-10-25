@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+  int firstNumber = 3, secondNumber = 0;
+    char operation;
+
+    cin >> operation;
+
+    switch (operation)
+    {
+    case '+': {
+        cout << firstNumber + secondNumber << endl;
+        break;
+    }
+    case '-': {
+        cout << firstNumber - secondNumber << endl;
+        break;
+    }
+    case '*': {
+        cout << firstNumber * secondNumber << endl;
+        break;
+    }
+    case '/': {
+        if (secondNumber != 0) {
+            cout << firstNumber / secondNumber << endl;
+            break;
+        }
+        cout << "Second number is 0" << endl;
+        break;
+    }
+    default:
+        cout << "Invalid input" << endl;
+        break;
+    }
+
+  return 0;
+}
