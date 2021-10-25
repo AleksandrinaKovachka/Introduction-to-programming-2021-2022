@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+  int firstNumber, secondNumber;
+
+    cout << "Input first number: ";
+    cin >> firstNumber;
+
+    cout << "Input second number: ";
+    cin >> secondNumber;
+
+    if (firstNumber > secondNumber) {
+        cout << "First number is bigger then second number" << endl;
+    }
+    else {
+        cout << "Second number is bigger then first number" << endl;
+    }
+
+    if (secondNumber % firstNumber == 0) {
+        cout << "First number is devider" << endl;
+    }
+    else {
+        cout << "First number is not devider" << endl;
+    }
+
+  return 0;
+}
