@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	//task 1 - a
+	int number;
+
+	cout << "Input number: ";
+	cin >> number;
+
+	bool have5 = (number > 99 && number < 1000) && (number % 10 == 5);
+
+	cout << have5 << endl; //ще изведе 0 или 1
+  
+  //написано с тернарен оператор
+  have5 ? cout << "Yes\n" : cout << "No\n";
+
+	//написана задачата с if
+	if ((number > 99 && number < 1000) && (number % 10 == 5))
+	{
+		cout << "Yes\n";
+	}
+	else
+	{
+		cout << "No\n";
+	}
+
+  //task 1 - b
+	bool div3And5 = (number > 99 && number < 1000) && (number % 5 == 0 && number % 3 == 0);
+
+	cout << div3And5 << endl;
+  
+  return 0;
+}
