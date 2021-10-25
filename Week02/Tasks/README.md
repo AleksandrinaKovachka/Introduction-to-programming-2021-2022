@@ -17,6 +17,9 @@
 
 Изход: True
 ```
+
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week02/Tasks/Task1)
+
 Задача 2:
 =
 Да се напише булев израз, който има стойност истина, когато са изпълнени следните условия:
@@ -45,6 +48,7 @@
 
 Изход: 26 / No
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week02/Tasks/Task3)
 
 Задача 4:
 =
@@ -56,6 +60,7 @@
 
 Изход: Yes
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week02/Tasks/Task4)
 
 Задача 5:
 =
@@ -70,6 +75,7 @@
 
 Изход: NO 170
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week02/Tasks/Task5)
 
 Задача 6:
 =
