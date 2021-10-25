@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int n, k;
+
+    cin >> n;
+    cin >> k;
+    
+    //направете проверка дали са трицифрени
+
+    int product;
+
+    product = (n % 10) * (n / 10 % 10) * (n / 100);
+
+    if (product > k) {
+        cout << "Yes and sum is: " << product + k << endl;
+    }
+    else {
+        cout << "No and difference is: " << k - product << endl;
+    }
+
+  return 0;
+}
