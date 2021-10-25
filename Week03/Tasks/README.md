@@ -7,6 +7,7 @@
 Вход: 5 
 Изход: Friday
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week03/Tasks/Task1)
 
 Задача 2:
 =
@@ -18,6 +19,7 @@
 -
 Изход: 3
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week03/Tasks/Task2)
 
 Задача 3:
 =
