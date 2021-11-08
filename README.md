@@ -12,4 +12,6 @@
 
 [Седмица 5](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Week05) - Вложени цикли
 
+[Седмица 6](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Week06) - Функции
+
 [Задачи за самоподготовка](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Exercises)
