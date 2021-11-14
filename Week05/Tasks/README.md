@@ -8,6 +8,7 @@
       6
 Изход: "yes"
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week05/Tasks/Task1)
 
 Задача 2:
 =
@@ -16,6 +17,7 @@
 Вход: 6
 Изход: 12
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week05/Tasks/Taks2)
 
 Задача 3:
 =
@@ -29,6 +31,7 @@
       0
 Изход: 17
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week05/Tasks/Task3)
 
 Задача 4:
 =
@@ -42,3 +45,4 @@
       104
 Изход: 5
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week05/Tasks/Task4)
