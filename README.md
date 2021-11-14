@@ -14,4 +14,6 @@
 
 [Седмица 6](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Week06) - Функции
 
+[Седмица 7](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Week07) - Масиви
+
 [Задачи за самоподготовка](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Exercises)
