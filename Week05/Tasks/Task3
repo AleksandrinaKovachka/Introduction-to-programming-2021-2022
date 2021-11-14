@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int n, number;
+	cin >> n;
+	int sum = 0;
+	int count = 0;
+
+	do
+	{
+		cin >> number;
+		if (number == 0)
+		{
+			break;
+		}
+		else
+		{
+			sum += number;
+		}
+		++count;
+	} while (count < n);
+
+	cout << sum << endl;
+  
+  return 0;
+}
