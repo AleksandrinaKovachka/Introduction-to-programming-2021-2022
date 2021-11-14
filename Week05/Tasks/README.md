@@ -37,6 +37,8 @@
 =
 Напишете програма, която намира и извежда всички трицифрени числа, сумата от цифрите на които е просто число.
 
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week05/Tasks/Task4)
+
 Бонус задача:
 =
 Напишете програма, която въвежда от клавиатурата цeлите числа m и n (m < n). Програмата да извежда броя на числата в интервала [m, n], които се състоят от различни цифри.
@@ -45,4 +47,3 @@
       104
 Изход: 5
 ```
-[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week05/Tasks/Task4)
