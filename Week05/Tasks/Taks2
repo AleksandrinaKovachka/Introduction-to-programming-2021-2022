@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int n, pros = 1;
+	cin >> n;
+
+	for (int i = 1; i <= n; ++i)
+	{
+		if (i == 3 || i == 6)
+		{
+			continue;
+		}
+		pros *= i;
+	}
+
+	cout << pros << endl;
+  
+  return 0;
+}
