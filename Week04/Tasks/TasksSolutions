@@ -1,0 +1,102 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //task 1
+    /*int sum = 0;
+
+    for (int i = 1; i <= 10; ++i) {
+        sum += i; //sum = sum + i
+    }
+
+    cout << sum << endl;
+
+    sum = 0;
+    int i = 1;
+
+    while (i <= 10) {
+        sum += i;
+        ++i;
+        int k = 0;
+        k += 10;
+    }
+
+    cout << sum << endl;
+
+    int j = 10;
+    sum = 0;
+
+    while (j >= 0) // j != 0 
+    {
+        sum += j;
+        --j;
+    }
+
+    cout << sum << endl;
+
+    sum = 0;
+    i = 1;
+
+    do {
+        sum += i;
+        ++i;
+    } while (i <= 10);
+
+    cout << sum << endl;*/
+
+    //task 2
+    /*int n;
+
+    cin >> n;
+
+    for (int i = 1; i <= n; ++i) {
+        if (i % 5 == 0) {
+            cout << i << " ";
+        }
+    }*/
+
+    //task 3
+    /*int number;
+
+    do {
+        cout << "Input number: ";
+        cin >> number;
+    } while (number < 10000 || number > 99999);
+
+    int numberCopy = number;
+    int newNumber = 0;
+
+    while (numberCopy != 0) {
+        newNumber *= 10;
+        newNumber += numberCopy % 10;
+        numberCopy /= 10;
+    }
+    cout << newNumber << endl;
+
+    cout << number << endl;*/
+
+    /*for (int i = 0; i < 10; ++i) {
+        cout << i << " ";
+        if (i == 5) {
+            cout << "Find our case: " << i << endl;
+        }
+    }
+
+    int sum = 0;
+    for (int i = 0; i < 10; ++i) {
+        for (int j = 0; j < 5; ++j) {
+            for (int k = 5; k < 8; ++k) {
+                do {
+                    sum += 1;
+                } while (sum != 15);
+                if (sum % 2 == 0) {
+                    break;
+                }
+            }
+        }
+    }*/
+    
+    return 0;
+}
