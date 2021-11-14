@@ -1,5 +1,7 @@
 # Седмица 6 - Функции
 
+[Решения на задачите...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week06/Tasks/TasksSolutions)
+
 Задача 1:
 =
 Напишете следната функция с прототип int max(int, int), която
