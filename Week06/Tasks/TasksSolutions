@@ -1,0 +1,169 @@
+#include <iostream>
+using namespace std;
+
+int getNumber();
+
+int changeNumber(int number);
+
+void printText();
+
+void printNumber(int number);
+
+//task 1
+int max(int firstNumber, int secondNumber);
+
+//task 2
+int maxNumber(int firstNumber, int secondNumber, int thirdNumber, int fourthNumber);
+
+//task 3
+int reverseNumber(int number);
+
+//task 4
+int absOfNumber(int number);
+
+//task 5
+double rectanglePerimeter(double a, double b);
+
+//task 6
+bool isPrime(int number);
+
+//task 7
+void quadrant(int x, int y);
+
+int main()
+{
+    quadrant(1, 1);
+
+    return 0;
+}
+
+int getNumber() {
+    int number = 3;
+    printText();
+    return number;
+}
+
+int changeNumber(int number) {
+    return number - 3;
+}
+
+void printText() {
+    cout << "Text" << endl;
+}
+
+void printNumber(int number) {
+    number += 5;
+
+    if (number == 19)
+    {
+        cout << "Finished printNumber function" << endl;
+        return;
+    }
+    else if (number == 18) {
+        return;
+    }
+
+    cout << number << endl;
+}
+
+int max(int firstNumber, int secondNumber) {
+
+    if (firstNumber > secondNumber) {
+        cout << "First is bigger " << firstNumber << endl;
+        return firstNumber;
+    }
+    else if (firstNumber == secondNumber) {
+        cout << firstNumber << "is equal to" << secondNumber << endl;
+        return firstNumber;
+    }
+    //else {
+        //cout << "Second is bigger " << secondNumber << endl;
+        //return secondNumber;
+    //}
+    cout << "Second is bigger " << secondNumber << endl;
+    return secondNumber;
+
+    //return firstNumber > secondNumber ? firstNumber : secondNumber;
+}
+
+int maxNumber(int firstNumber, int secondNumber, int thirdNumber, int fourthNumber) {
+    int max = firstNumber;
+
+    if (secondNumber > max) {
+        max = secondNumber;
+    }
+    if (thirdNumber > max) {
+        max = thirdNumber;
+    }
+    if (fourthNumber > max) {
+        max = fourthNumber;
+    }
+
+    return max;
+}
+
+int reverseNumber(int number) {
+
+    int reverseNumber = 0;
+
+    while (number != 0) {
+        reverseNumber = reverseNumber * 10 + number % 10;
+        number /= 10;
+    }
+
+    return reverseNumber;
+}
+
+int absOfNumber(int number) {
+    if (number < 0) {
+        return number * (-1);
+    }
+    return number;
+}
+
+double rectanglePerimeter(double a, double b) {
+    return (2 * a) + (2 * b);
+}
+
+bool isPrime(int number) {
+    for (int i = 2; i < number / 2; ++i) {
+        if (number % i == 0) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+void quadrant(int x, int y) {
+    if (x > 0 && y > 0) {
+        cout << "First" << endl;
+        return;
+    }
+    else if (x < 0 && y > 0) {
+        cout << "Second" << endl;
+        return;
+    }
+    else if (x < 0 && y < 0) {
+        cout << "Third" << endl;
+        return;
+    }
+    else if (x > 0 && y < 0) {
+        cout << "Fourth" << endl;
+        return;
+    }
+    else if (x == 0) {
+        if (y == 0) {
+            cout << "Center" << endl;
+            return;
+        }
+        else {
+            cout << "Ordinate" << endl;
+            return;
+        }
+    }
+    else {
+        cout << "Abc" << endl;
+    }
+   
+}
