@@ -1,5 +1,7 @@
 # Седмица 4 - Циклични оператори
 
+[Решения на задачите...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week04/Tasks/TasksSolutions)
+
 Задача 1:
 =
 Напишете сумиране на числата от 1 до 10 с:
