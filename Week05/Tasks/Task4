@@ -1,0 +1,38 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int sumOfDigit = 0;
+	int temp;
+	bool isPrime = true;
+	for (int i = 100; i < 1000; ++i)
+	{
+		temp = i;
+		while (temp != 0)
+		{
+			sumOfDigit += temp % 10;
+			temp /= 10;
+		}
+		
+		for (int j = 2; j < sumOfDigit; ++j)
+		{
+			if (sumOfDigit % j == 0)
+			{
+				isPrime = false;
+				break;
+			}
+		}
+
+		if (isPrime)
+		{
+			cout << i << endl;
+		}
+
+		sumOfDigit = 0;
+		isPrime = true;
+	}
+	
+  return 0;
+}
