@@ -1,5 +1,7 @@
 # Седмица 8 - Двумерни масиви
 
+[Решения на задачите...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week08/Tasks/Solutions)
+
 Задача 1:
 =
 Да се напише програма, която въвежда матрица с максимален брой елементи 100х100.
