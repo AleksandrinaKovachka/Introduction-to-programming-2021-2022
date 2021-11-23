@@ -1,5 +1,7 @@
 # Седмица 7 - Масиви
 
+[Решения на задачите...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week07/Tasks/Solutions)
+
 Задача 1:
 =
 Напишете програма, която въвежда от клавиатурата цяло число от 2 до 25. Въведете толкова
