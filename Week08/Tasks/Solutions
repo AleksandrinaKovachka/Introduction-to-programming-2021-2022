@@ -1,0 +1,101 @@
+#include <iostream>
+using namespace std;
+
+const int ARR_SIZE = 100;
+
+int main()
+{
+//task_1
+    /*int matrix[ARR_SIZE][ARR_SIZE];
+    int row, col, number;
+
+    cout << "Row: ";
+    cin >> row;
+
+    cout << "Col: ";
+    cin >> col;
+
+    cout << "Input number: ";
+    cin >> number;
+
+    for (int i = 0; i < row; ++i) {
+        for (int j = 0; j < col; ++j) {
+            matrix[i][j] = number;
+        }
+    }
+
+    for (int i = 0; i < row; ++i) {
+        for (int j = 0; j < col; ++j) {
+            cout << matrix[i][j] << " ";
+        }
+        cout << endl;
+    }*/
+
+    //task_2
+    /*int matrix[ARR_SIZE][ARR_SIZE];
+    int row, col, number;
+
+    cout << "Row: ";
+    cin >> row;
+
+    cout << "Col: ";
+    cin >> col;
+
+    cout << "Input number: ";
+    cin >> number;
+
+    for (int i = 0; i < row; ++i) {
+        for (int j = 0; j < col; ++j) {
+            cout << "matrix[" << i << "][" << j << "] = ";
+            cin >> matrix[i][j];
+        }
+    }
+
+    for (int i = 0; i < row; ++i) {
+        for (int j = 0; j < col; ++j) {
+            matrix[i][j] *= number;
+        }
+    }
+
+    for (int i = 0; i < row; ++i) {
+        for (int j = 0; j < col; ++j) {
+            cout << matrix[i][j] << " ";
+        }
+        cout << endl;
+    }*/
+
+    //task_3
+    int size;
+    int matrix[ARR_SIZE][ARR_SIZE];
+
+    cout << "Input number of rows and cols: ";
+    cin >> size;
+
+    for (int i = 0; i < size; ++i) {
+        for (int j = 0; j < size; ++j) {
+            cout << "matrix[" << i << "][" << j << "] = ";
+            cin >> matrix[i][j];
+        }
+    }
+
+    bool isSimetric = true;
+    for (int i = 0; i < size; ++i) {
+        for (int j = 0; j < size; ++j) {
+            if (matrix[i][j] != matrix[j][i]) {
+                cout << "Not simetric" << endl;
+                isSimetric = false;
+                break;
+            }
+        }
+
+        if (!isSimetric) {
+            break;
+        }
+    }
+
+    if (isSimetric) {
+        cout << "Is simetric" << endl;
+    }
+
+    return 0;
+}
