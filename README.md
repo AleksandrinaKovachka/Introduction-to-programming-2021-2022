@@ -18,4 +18,6 @@
 
 [Седмица 8](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Week08) - Двумерни масиви
 
+[Седмица 9](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Week09) - Указатели
+
 [Задачи за самоподготовка](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Exercises)
