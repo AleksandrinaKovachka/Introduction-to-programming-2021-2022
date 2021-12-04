@@ -6,4 +6,6 @@
 
 [Подготовка за контролно 1](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Exercises/Exam1)
 
+[Подготовка за контролно 2](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Exercises/Exam2)
+
 Задачите може да изпращате на: homeworkup.informatics@gmail.com
