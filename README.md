@@ -20,4 +20,6 @@
 
 [Седмица 9](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Week09) - Указатели
 
+[Седмица 10](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Week10) - Указатели и псевдоними
+
 [Задачи за самоподготовка](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Exercises)
