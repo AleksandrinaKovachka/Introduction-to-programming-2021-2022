@@ -1,5 +1,7 @@
 # Седмица 10 - Указатели и псевдоними
 
+[Решения на задачите...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week10/Tasks/Solutions)
+
 Задача 1:
 =
 Напишете функция с прототип(int arr[], int size),която принтира масив.
