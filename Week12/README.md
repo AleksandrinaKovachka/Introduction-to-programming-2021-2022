@@ -1,5 +1,5 @@
 # Седмица 12 - Рекурсия
 
-Теория
+[Теория](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Week12/Theory)
 
-Задачи
+[Задачи](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Week12/Tasks)
