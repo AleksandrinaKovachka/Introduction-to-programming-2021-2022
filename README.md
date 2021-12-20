@@ -24,4 +24,6 @@
 
 [Седмица 11](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Week11) - Низове и динамична памет
 
+[Седмица 12](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Week12) - Рекурсия
+
 [Задачи за самоподготовка](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Exercises)
