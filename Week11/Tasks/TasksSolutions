@@ -1,0 +1,112 @@
+#include "pch.h"
+#include <iostream>
+
+using namespace std;
+
+unsigned stringLenght(char* arr)
+{
+	unsigned len = 0;
+	int i = 0;
+	while (arr[i] != '\0')
+	{
+		++len; //len++
+		++i;
+	}
+
+	return len;
+}
+
+unsigned countWords(char* arr)
+{
+	unsigned cnt = 0;
+
+	while (*arr != '\0') // arr[i]
+	{
+		if ((*arr != ' ' && *(arr + 1) == ' ') || (*arr != ' ' && *(arr + 1) == '\0'))
+		{
+			++cnt;
+		}
+		arr++;
+	}
+
+	return cnt;
+}
+
+bool equalsElement(char* arr1, char* arr2)
+{	
+	unsigned len1 = stringLenght(arr1);
+	unsigned len2 = stringLenght(arr2);//24
+
+	if (len1 != len2)
+	{
+		return false;
+	}
+
+	for (unsigned i = 0; i < len2; ++i)
+	{
+		if (arr1[i] != arr2[i])
+		{
+			return false;
+		}
+	}
+
+	return true;
+}
+
+void evaluate(char* arr)
+{
+	unsigned upper = 0, lower = 0, digit = 0;
+
+	while (*arr != '\0')
+	{
+		if (*arr >= 'A' && *arr <= 'Z')
+		{
+			++upper;
+		}
+		else if (*arr >= 'a' && *arr <= 'z')
+		{
+			++lower;
+		}
+		else if (*arr >= '0' && *arr <= '9')
+		{
+			++digit;
+		}
+
+		arr++;
+	}
+
+	cout << "Big letters: " << upper << endl;
+	cout << "Small letters: " << lower << endl;
+	cout << "Digits: " << digit << endl;
+}
+
+void replace(char* src, char what, char with)
+{
+	while (*src != '\0')
+	{
+		if (*src == what)
+		{
+			*src = with;
+		}
+
+		cout << *src;
+
+		src++;
+	}
+}
+
+void trunc(char* arr, unsigned n)
+{
+	unsigned len = stringLenght(arr);
+
+	if (len > n)
+	{
+		arr[n] = '\0';
+	}
+}
+
+int main()
+{
+
+	return 0;
+}
