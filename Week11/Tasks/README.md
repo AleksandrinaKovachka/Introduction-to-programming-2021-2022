@@ -1,5 +1,7 @@
 # Седмица 11 - Низове, Динамична памет
 
+[Решения на задачите...](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/blob/main/Week11/Tasks/TasksSolutions)
+
 ***Низове***
 
 Задача 1:
