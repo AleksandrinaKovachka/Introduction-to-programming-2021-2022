@@ -28,4 +28,6 @@
 
 [Седмица 13](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Week13) - Рекурсия, Подготовка за контролно 3
 
+[Седмица 14](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Week14) - Въведение в ООП
+
 [Задачи за самоподготовка](https://github.com/AleksandrinaKovachka/Introduction-to-programming-2021-2022/tree/main/Exercises)
